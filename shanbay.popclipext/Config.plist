@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>shanbay.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/local/bin/python3</string>
+			<key>Shell Script File</key>
+			<string>run.py</string>
+			<key>Title</key>
+			<string>扇贝词库</string>
+			<key>After</key>
+			<string>preview-result</string>
+		</dict>
+	</array>
+	<key>Extension Identifier</key>
+	<string>net.just4test.popclip.shanbay</string>
+	<key>Extension Name</key>
+	<string>扇贝词库</string>
+	<key>Extension Description</key>
+	<string>使用扇贝查询单词，并添加到词库</string>
+	<key>Required Software Version</key>
+	<integer>1459</integer>
+	<key>Image File</key>
+	<string>shanbei.png</string>
+	<key>Long Running</key>
+	<true/>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Identifier</key>
+			<string>access_token</string>
+			<key>Option Type</key>
+			<string>string</string>
+			<key>Option Default Value</key>
+			<string>GET https://api.shanbay.com/oauth2/authorize/?client_id=3afa2ca40713855221e0&amp;response_type=token</string>
+			<key>Option Label</key>
+			<string>请输入access_token</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<dict>
+		<key>Name</key>
+		<string>Just4test</string>
+		<key>Link</key>
+		<string>https://github.com/Just4test/ShanbayPopClip</string>
+	</dict>
+</dict>
+</plist>
