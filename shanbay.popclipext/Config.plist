@@ -37,7 +37,7 @@
 			<key>Option Type</key>
 			<string>string</string>
 			<key>Option Default Value</key>
-			<string>GET https://api.shanbay.com/oauth2/authorize/?client_id=3afa2ca40713855221e0&amp;response_type=token</string>
+			<string>访问此URL获取授权： https://api.shanbay.com/oauth2/authorize/?client_id=3afa2ca40713855221e0&amp;response_type=token</string>
 			<key>Option Label</key>
 			<string>请输入access_token</string>
 		</dict>
